@@ -11,6 +11,7 @@ main{
         display: flex;
 }
 .myPhoto{
+    transform: translateY(70px);
     border-radius: 85px;
     background-color: rgb(92, 180, 136);
     margin-left: 260px;
@@ -20,6 +21,7 @@ main{
     display: inline-block;
 }
 .textWindow{
+    margin-top: -25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,10 +31,10 @@ main{
     background-size: cover;
     height: 500px;
     width: 500px;
-
+    transform: translateY(-170px);
 }
 .text-W{
-    font-family: "Rubick Iso";
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     margin-right: auto;
     color: rgb(255, 161, 84);
