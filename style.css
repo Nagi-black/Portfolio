@@ -1,0 +1,42 @@
+body{
+    background-image:url(./img/background-img.png) ;
+}
+.title{
+    text-align: center;
+    font-family: Barrio;
+    font-size: 70px;
+    color: rgb(122, 180, 122);
+}
+main{
+        display: flex;
+}
+.myPhoto{
+    border-radius: 85px;
+    background-color: rgb(92, 180, 136);
+    margin-left: 260px;
+    max-block-size: 300px;
+}
+.wrapper{
+    display: inline-block;
+}
+.textWindow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 0 0;
+    background-image: url(/img/window.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+
+}
+.text-W{
+    font-family: "Rubick Iso";
+    font-style: normal;
+    margin-right: auto;
+    color: rgb(255, 161, 84);
+    margin-left: 65px;
+    font-size: 25px;
+    rotate:10deg;
+}
